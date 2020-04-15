@@ -1,5 +1,23 @@
 # Strings in python are surrounded by either single or double quotation marks. Let's look at string formatting and some string methods
 
+
+# Single quotes
+a = 'Hello'
+
+# Double quotes
+b = "World"
+
+# A mix of both
+c = "Bob said ’hey there.’" 
+
+d = '''A triple quoted string
+can span multiple lines
+like this'''
+
+e = """Also works for double quotes"""
+
+
+# Simple
 name = 'Brad'
 age = 37
 
@@ -11,7 +29,7 @@ print('Hello, my name is ' + name + ' and I am ' + str(age))
 # Arguments by position
 print('My name is {name} and I am {age}'.format(name=name, age=age))
 
-# F-Strings (3.6+)
+# F-Strings (Python version >= 3.6+)
 print(f'Hello, my name is {name} and I am {age}')
 
 # String Methods
